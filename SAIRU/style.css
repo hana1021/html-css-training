@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 15px;
+}
+
+body {
+  max-width: 1080px;
+  margin: 0 auto 0 auto;
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", "Meiryo", "Arial", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: solid lightgray 0.5px;
+}
+
+#logo {
+  margin-left: 20px;
+}
+
+#nav-pc {
+  font-size: 15px;
+}
+
+#nav-pc ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#nav-pc li{
+  list-style: none;
+}
+
+#nav-pc a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px;
+}
+
+#nav-pc a:hover {
+  text-decoration: underline;
+}
+
+/* メインビジュアル */
+#main-visual {
+  display: flex;
+  width: 100%;
+  height: 850px;
+}
+
+#left {
+  display: flex;
+  background-color: #f9f9f9;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+#method-en {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 75px;
+  margin: 0 auto;
+}
+
+#method {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+#button {
+  display: flex;
+}
+
+#button-siryou > a {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  border: solid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+#button-siryou > a::after {
+  content: "\02192";
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+#button-siryou > a:hover {
+  background-color: #000033;
+  color: white;
+}
+
+#button-soudan > a {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  border: solid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  background-color: #000033;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+#button-soudan > a::after {
+  content: "\02192";
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+#button-soudan > a:hover {
+  background-color: white;
+  color: #000033;
+}
+
+#right {
+  display: flex;
+  width: 50%;
+  color: white;
+  background-color: #000033;
+  justify-content: center;
+  align-items: center;
+}
+
+#right h1 {
+  font-size: 40px;
+  letter-spacing: 0.5rem;
+}
+
+#right h1 span {
+  font-size: 30px;
+}
+
+#right ul {
+  font-size: 20px;
+  line-height: 50px;
+  padding-left: 25px;
+}
+
+#right ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#right ul li a:hover {
+  text-decoration: underline;
+}
+
+#right li::after {
+  content: "\02192";
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+#right p {
+  font-size: 18px;
+  margin-top: 70px;
+}
+
+#right p span {
+  font-size: 38px;
+  margin: 0px 5px;
+}
